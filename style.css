@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: px;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+/* Navigation Flexbox*/
+.nav-list{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    gap : 20px;
+    list-style: none;
+    padding: 10px;
+    margin: 100px;
+    justify-content: space-evenly;
+}
+/*Main layout using Flex-Box*/
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+/* Card style section*/
+.card{
+    max-width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+/* Skills & goals lists*/
+.skill-list{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+/* Responsive navigation based on screen size*/
+@media(max-width: 600px){
+    .nav-list{
+        flex-direction: column;
+    }
+}
+
+nav a{
+    text-decoration: none;
+    color: #244673;
+    font-weight: 600;
+    padding: 6px 10px;
+    border-radius: 4px
+    
+}
+nav a:hover{
+    background-color: #4a90e2;
+    color : #ffffff;
+}
+.page-description {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin: 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Default section style */
+section {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* When section is targeted (clicked via nav) */
+section:target {
+  background-color: #c6def6;
+  transform: scale(1.02);
+}
+
