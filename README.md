@@ -33,12 +33,12 @@ A semantic HTML profile webpage styled using CSS Flexbox to create a responsive 
 
 ---
 
-# Repository Structure
-
+## 📂 Repository Structure
 semantic-html-profile-flexbox:
   - index.html
   - style.css
   - README.md
+    
 ---
 
 ## ✅ Features
@@ -56,7 +56,4 @@ semantic-html-profile-flexbox:
 - Structuring layouts without using JavaScript
 
 ---
-
-## 📌 Task Reference
-Web Development Internship – **Task 3: Create a Responsive Layout Using Flexbox**
 
