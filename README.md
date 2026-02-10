@@ -1,11 +1,11 @@
 # Semantic HTML Profile – Flexbox Layout
 
-## 📌 Overview
+## Overview
 A semantic HTML profile webpage styled using CSS Flexbox to create a responsive and well-aligned layout. The purpose of this task is to apply Flexbox concepts to organize navigation links and content sections in a mobile-friendly manner.
 
 ---
 
-## 🎯 Task Objective
+## Task Objective
 - Create a responsive layout using CSS Flexbox
 - Align navigation links using Flexbox
 - Arrange page sections in a flexible layout
@@ -14,7 +14,7 @@ A semantic HTML profile webpage styled using CSS Flexbox to create a responsive 
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - HTML5 (Semantic elements)
 - CSS3 (Flexbox)
 - VS Code
@@ -22,7 +22,7 @@ A semantic HTML profile webpage styled using CSS Flexbox to create a responsive 
 
 ---
 
-## 📦 Concepts Covered
+## Concepts Covered
 - display: flex
 - flex-direction
 - justify-content
@@ -49,7 +49,7 @@ semantic-html-profile-flexbox:
 
 ---
 
-## 📖 What I Learned
+## What I Learned
 - How Flexbox controls layout alignment
 - Difference between main axis and cross axis
 - Creating responsive layouts using Flexbox
